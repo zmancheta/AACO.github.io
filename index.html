@@ -455,17 +455,17 @@
         <br>
         <br>
         <form class="form-group" method="post" action="http://savantandsparktest.ml/checkout.php">
-            <label for="cust_name" class="details">Name:</label>
+            <label for="custn" class="details">Name:</label>
             <br>
-            <input type="text" id="cust_name" placeholder="Type your name" required><br>
+            <input type="text" id="custn" name="cust_name" placeholder="Type your name" required><br>
             <br>
-            <label for="cust_email" class="details">Email Address:</label>
+            <label for="custe" class="details">Email Address:</label>
             <br>
-            <input type="text" id="cust_email" placeholder="Type your email" required><br>
+            <input type="text" id="custe" name="cust_email" placeholder="Type your email" required><br>
             <br>
-            <label for="cust_addr" class="details">Address of Customer:</label>
+            <label for="custa" class="details">Address of Customer:</label>
             <br>
-            <input type="text" id="cust_addr" placeholder="Type your address" required>
+            <input type="text" name="custa" id="cust_addr" placeholder="Type your address" required>
             <input type="hidden" name="cust_order" value="" id="custorder"><br><br>
             <input type="submit" onclick="postFunction()" id="submit" value="Submit">
         </form>
