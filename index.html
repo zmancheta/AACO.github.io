@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>AACO BOOKSTORE!</title>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+        <script src="index.js"></script> 
+        <link rel="stylesheet" type="text/css" href="styleyuh.css">
+        
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+        
+    
+    </head>
+    
+<body>
+    
+    <img src="bg.jpeg" id="bg" alt="Bg">
+        
+<header>
+    
+    <nav>
+        <img src="AACO.png" alt="AACO logo" class="logo">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#cart">Cart</a></li>
+        <li><a href="atc.html">About Us</a></li>
+        <li class="nav-item dropdown">
+            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Genres</a>
+            <div class="dropdown-menu">
+                <a href="#bestsellers" class="dropdown-item">Best Sellers</a>
+                <a href="#romance" class="dropdown-item">Romance</a>
+                <a href="#fantasy" class="dropdown-item">Fantasy</a>
+                <a href="#thriller" class="dropdown-item">Thriller</a>
+                <a href="#contemporary" class="dropdown-item">Contemporary</a>
+                <a href="#booksets" class="dropdown-item">Book Sets</a>
+            </div>
+        </li>
+        </ul>
+   
+    </nav>
+</header>
+        
+        <div class="container">
+           
+            <div id="welcome">
+                <img src="welcome.png" alt="welcome">
+                <h3> Our store updates the top 30 most popular books every week! </h3>
+                <br>
+                <br>
+                
+            </div>
+        </div>
+    
+    
+    
+    
+
+    
+        
+        <div id ="bestsellers">
+            <a href="#bestsellers" class="bestsellers">Bestsellers</a>
+            <br>
+            <br>
+            <div class="book">
+                <img src="a-little-life.jpeg" alt="a little life">
+                <div class="bookdesc">
+                <h2>A Little Life</h2>
+                <p class="price">Php 900</p>
+                <p class="author">Author: Hanya Yanagihara</p>
+                <button class="curve" onclick="bookOne()">Add to Cart</button>
+                </div>
+            </div>
+    
+            <div class="book">
+                <img src="invisible-life-of-addie-larue.jpeg" alt="invisible life of addie larue">
+                <div class="bookdesc">
+                <h2>The Invisible Life of Addie Larue</h2>
+                <p class="price">Php 900</p>
+                <p class="author">Author: V.E. Schwab</p>
+                <button class="curve" onclick="bookTwo()">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="book">
+                <img src="they-both-die-at-the-end.jpeg" alt="they both die at the end">
+                <div class="bookdesc">
+                <h2>They Both Die at the End</h2>
+                <p class="price">Php 500</p>
+                <p class="author">Author: Adam Silvera</p>
+                <button class="curve" onclick="bookThree()">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="book">
+                <img src="SOA.jpeg" alt="song of achilles">
+                <div class="bookdesc">
+                <h2>The Song of Achilles</h2>
+                <p class="price">Php 700</p>
+                <p class="author">Author: Madeline Miller</p>
+                <button class="curve" onclick="bookFour()">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="book">
+                <img src="SHOEH.jpeg" alt="seven husbands of evelyn hugo">
+                <div class="bookdesc">
+                <h2>The Seven Husbands of Evelyn Hugo</h2>
+                <p class="price">Php 700</p>
+                <p class="author">Author: Taylor Jenkins Reid</p>
+                <button class="curve" onclick="bookFive()">Add to Cart</button>
+                </div>
+            </div>
+    </div>
+    
+    
+
+    
+    
+            
+            <br>
+            <br>
+    
+        <div id ="romance">
+            <a href="#romance" class="romance">Romance</a>
+            <br>
+            <br>
+            <div class="book">
+                <img src="it-ends-with-us.jpeg" alt="it ends with us">
+                <div class="bookdesc">
+                <h2>It Ends With Us</h2>
+                <p class="price">Php 900</p>
+                <p class="author">Author: Colleen Hoover</p>
+                <button class="curve" onclick="bookSix()">Add to Cart</button>
+                </div>
+            </div>
+    
+            <div class="book">
+                <img src="midnight-sun.jpeg" alt="midnight sun">
+                <div class="bookdesc">
+                <h2>Midnight Sun</h2>
+                <p class="price">Php 800</p>
+                <p class="author">Author: Stephenie Meyer</p>
+                <button class="curve" onclick="bookSeven()">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="book">
+                <img src="these-violent-delights.jpeg" alt="these violent delights">
+                <div class="bookdesc">
+                <h2>These Violent Delights</h2>
+                <p class="price">Php 700</p>
+                <p class="author">Author: Chloe Gong</p>
+                <button class="curve" onclick="bookEight()">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="book">
+                <img src="lovely-war.jpg" alt="lovely war">
+                <div class="bookdesc">
+                <h2>Lovely War</h2>
+                <p class="price">Php 650</p>
+                <p class="author">Author: Julie Berry</p>
+                <button class="curve" onclick="bookNine()">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="book">
+                <img src="red-white-royal-blue.jpeg" alt="red white royal blue">
+                <div class="bookdesc">
+                <h2>Red White Royal Blue</h2>
+                <p class="price">Php 700</p>
+                <p class="author">Author: Casey McQuiston</p>
+                <button class="curve" onclick="bookTen()">Add to Cart</button>
+                </div>
+            </div>
+    </div>
+    
+    
+    
+
+    
+    
+            
+            <br>
+            <br>
+    
+        <div id ="fantasy">
+            <a href="#fantasy" class="fantasy">Fantasy</a>
+            <br>
+            <br>
+            <div class="book">
+                <img src="ACOSF.jpeg" alt="a court of silver flames">
+                <div class="bookdesc">
+                <h2>A Court of Silver Flames</h2>
+                <p class="price">Php 950</p>
+                <p class="author">Author: Sarah J. Maas</p>
+                <button class="curve" onclick="bookEleven()">Add to Cart</button>
+                </div>
+            </div>
+    
+            <div class="book">
+                <img src="legendborn.jpeg" alt="legendborn">
+                <div class="bookdesc">
+                <h2>Legendborn</h2>
+                <p class="price">Php 900</p>
+                <p class="author">Author: Tracy Deonn</p>
+                <button class="curve" onclick="bookTwelve()">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="book">
+                <img src="from-blood-and-ash.jpeg" alt="from blood and ash">
+                <div class="bookdesc">
+                <h2>From Blood and Ash</h2>
+                <p class="price">Php 950</p>
+                <p class="author">Author: Jennifer L. Armentrout</p>
+                <button class="curve" onclick="bookThirteen()">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="book">
+                <img src="we-hunt-the-flame.jpeg" alt="we hunt the flame">
+                <div class="bookdesc">
+                <h2>We Hunt the Flame</h2>
+                <p class="price">Php 500</p>
+                <p class="author">Author: Hafsah Faizal</p>
+                <button class="curve" onclick="bookFourteen()">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="book">
+                <img src="an-ember-in-the-ashes.jpeg" alt="an ember in the ashes">
+                <div class="bookdesc">
+                <h2>An Ember in the Ashes</h2>
+                <p class="price">Php 450</p>
+                <p class="author">Author: Sabaa Tahir</p>
+                <button class="curve" onclick="bookFifteen()">Add to Cart</button>
+                </div>
+            </div>
+    </div>
+    
+
+    
+    
+            
+            <br>
+            <br>
+    
+        <div id ="thriller">
+            <a href="#thriller" class="thriller">Thriller</a>
+            <br>
+            <br>
+            <div class="book">
+                <img src="gone-girl.jpeg" alt="gone girl">
+                <div class="bookdesc">
+                <h2>Gone Girl</h2>
+                <p class="price">Php 350</p>
+                <p class="author">Author: Gillian Flynn</p>
+                <button class="curve" onclick="bookSixteen()">Add to Cart</button>
+                </div>
+            </div>
+    
+            <div class="book">
+                <img src="the-girl-on-the-train.png" alt="the girl on the train">
+                <div class="bookdesc">
+                <h2>The Girl on the Train</h2>
+                <p class="price">Php 200</p>
+                <p class="author">Author: Paula Hawkins</p>
+                <button class="curve" onclick="bookSeventeen()">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="book">
+                <img src="the-silent-patient.jpeg" alt="the silent patient">
+                <div class="bookdesc">
+                <h2>The Silent Patient</h2>
+                <p class="price">Php 400</p>
+                <p class="author">Author: Alex Michaelides</p>
+                <button class="curve" onclick="bookEighteen()">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="book">
+                <img src="verity.jpg" alt="verity">
+                <div class="bookdesc">
+                <h2>Verity</h2>
+                <p class="price">Php 900</p>
+                <p class="author">Author: Colleen Hoover</p>
+                <button class="curve" onclick="bookNineteen()">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="book">
+                <img src="the-woman-in-the-window.jpg" alt="the woman in the window">
+                <div class="bookdesc">
+                <h2>The Woman in the Window</h2>
+                <p class="price">Php 550</p>
+                <p class="author">Author: A.J. Finn</p>
+                <button class="curve" onclick="bookTwenty()">Add to Cart</button>
+                </div>
+            </div>
+    </div>
+    
+    
+    
+  
+    
+    
+            
+            <br>
+            <br>
+    
+        <div id ="contemporary">
+            <a href="#contemporary" class="contemporary">Contemporary</a>
+            <br>
+            <br>
+            <div class="book">
+                <img src="normal-people.jpg" alt="normal people">
+                <div class="bookdesc">
+                <h2>Normal People</h2>
+                <p class="price">Php 700</p>
+                <p class="author">Author: Sally Rooney</p>
+                <button class="curve" onclick="bookTwentyOne()">Add to Cart</button>
+                </div>
+            </div>
+    
+            <div class="book">
+                <img src="the-midnight-library.jpeg" alt="the midnight library">
+                <div class="bookdesc">
+                <h2>The Midnight Library</h2>
+                <p class="price">Php 600</p>
+                <p class="author">Author: Matt Haig</p>
+                <button class="curve" onclick="bookTwentyTwo()">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="book">
+                <img src="conversations-with-friends.jpeg" alt="conversations with friends">
+                <div class="bookdesc">
+                <h2>Conversations With Friends</h2>
+                <p class="price">Php 900</p>
+                <p class="author">Author: Sally Rooney</p>
+                <button class="curve" onclick="bookTwentyThree()">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="book">
+                <img src="the-vanishing-half.jpg" alt="the vanishing half">
+                <div class="bookdesc">
+                <h2>The Vanishing Half</h2>
+                <p class="price">Php 800</p>
+                <p class="author">Author: Brit Bennett</p>
+                <button class="curve" onclick="bookTwentyFour()">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="book">
+                <img src="we-were-liars.jpeg" alt="we were liars">
+                <div class="bookdesc">
+                <h2>We Were Liars</h2>
+                <p class="price">Php 350</p>
+                <p class="author">Author: E. Lockhart</p>
+                <button class="curve" onclick="bookTwentyFive()">Add to Cart</button>
+                </div>
+            </div>
+    </div>
+    
+    
+
+    
+    
+            
+            <br>
+            <br>
+    
+        <div id ="booksets">
+            <a href="#booksets" class="booksets">Book Sets</a>
+            <br>
+            <br>
+            <div class="book">
+                <img src="SOCduology.png" alt="SOC duology">
+                <div class="bookdesc">
+                <h2>Six of Crows Duology</h2>
+                <p class="price">Php 1300</p>
+                <p class="author">Author: Leigh Bardugo</p>
+                <button class="curve" onclick="bookTwentySix()">Add to Cart</button>
+                </div>
+            </div>
+    
+            <div class="book">
+                <img src="SOBtrilogy.png" alt="SOB trilogy">
+                <div class="bookdesc">
+                <h2>Shadow of Bone Trilogy</h2>
+                <p class="price">Php 1500</p>
+                <p class="author">Author: Leigh Bardugo</p>
+                <button class="curve" onclick="bookTwentySeven()">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="book">
+                <img src="percy-jackson.png" alt="percy jackson">
+                <div class="bookdesc">
+                <h2>Percy Jackson Greek Gods Box Set</h2>
+                <p class="price">Php 2300</p>
+                <p class="author">Author: Rick Riordan</p>
+                <button class="curve" onclick="bookTwentyEight()">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="book">
+                <img src="harry-potter.png" alt="harry potter">
+                <div class="bookdesc">
+                <h2>Harry Potter Paperback Collection</h2>
+                <p class="price">Php 3000</p>
+                <p class="author">Author: J.K. Rowling</p>
+                <button class="curve" onclick="bookTwentyNine()">Add to Cart</button>
+                </div>
+            </div>
+            
+            <div class="book">
+                <img src="twilight.png" alt="twilight">
+                <div class="bookdesc">
+                <h2>The Twilight Saga Limited Edition Box Set</h2>
+                <p class="price">Php 2700</p>
+                <p class="author">Author: Stephenie Meyer</p>
+                <button class="curve" onclick="bookThirty()">Add to Cart</button>
+                </div>
+            </div>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="cartcenter">
+        <div id="cart"><strong>C&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;R&nbsp;&nbsp;&nbsp;T&nbsp;&nbsp;&nbsp;:</strong></div>
+        <br>
+        <br>
+        <ul id="productPrice"><li><em>No items in cart yet.</em></li></ul>
+        <br>
+        <div id="total"><strong>Total Price: </strong>Php 0.00</div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="checkout">
+    <strong class="strong">C&nbsp;&nbsp;&nbsp;U&nbsp;&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;T&nbsp;&nbsp;&nbsp;O&nbsp;&nbsp;&nbsp;M&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;R&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D&nbsp;&nbsp;&nbsp;E&nbsp;&nbsp;&nbsp;T&nbsp;&nbsp;&nbsp;A&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;L&nbsp;&nbsp;&nbsp;S&nbsp;&nbsp;&nbsp;:</strong>
+        <br>
+        <br>
+        <form class="form-group" method="post" action="http://savantandsparktest.ml/checkout.php">
+            <label for="cust_name" class="details">Name:</label>
+            <br>
+            <input type="text" id="cust_name" placeholder="Type your name" required><br>
+            <br>
+            <label for="cust_email" class="details">Email Address:</label>
+            <br>
+            <input type="text" id="cust_email" placeholder="Type your email" required><br>
+            <br>
+            <label for="cust_addr" class="details">Address of Customer:</label>
+            <br>
+            <input type="text" id="cust_addr" placeholder="Type your address" required>
+            <input type="hidden" name="cust_order" value="" id="custorder"><br><br>
+            <input type="submit" onclick="postFunction()" id="submit" value="Submit">
+        </form>
+    </div>
+    </body>
+</html>
+    
+    
+    
+            
+           
+
+
+
+    
+    
+    
+    
+    
+    
+  

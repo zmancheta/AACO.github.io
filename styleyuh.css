@@ -1,0 +1,845 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+        
+
+body , html {
+    
+    height: 100%;
+}
+        
+
+    
+
+    
+/*header
+    
+================================================*/
+    
+
+@media (min-width: 820px){
+    
+    
+    #bg{
+                width: 100%;
+                height: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: fixed;
+        
+    }
+            
+header{
+    text-align: center;
+    width: auto;
+    
+    
+}
+
+nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background: turquoise;
+    width: auto;
+    position: relative;
+    text-align: center;
+
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+
+}
+
+nav ul {
+    text-align: center;
+    margin-right: 20px;
+}
+    
+nav li a{
+    text-decoration: none;
+    color: #A134F6;
+    margin-bottom: 3px;
+    margin-top: 2px;
+    padding: 8px;
+    position: relative;
+    text-align:center;
+    width: 100%;
+    font-size: 20px;
+
+    }
+    
+nav li a:hover{
+    color: #FAFF00;
+    text-decoration: none;
+     position: relative;
+}
+
+    
+nav ul img{
+    width: 35%;
+    height: auto;
+    padding: 0;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    position: relative;
+    
+}
+
+/*welcome
+
+==============================================*/
+
+#container{
+    margin: auto;
+    text-align: center;
+}
+        
+#welcome img {
+    text-align: center;
+    width: 60%;
+    position: relative;
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+        
+h3{
+    color: #6320E8;
+    background-color: #FAFF00;
+    width: 80%;
+    height: auto;
+    border-radius: 70px;
+    text-align: center;
+    margin: auto;
+    font-size-adjust: auto;
+    font-size: 22px;
+    padding: 10px;
+    margin-top: 5px;
+    position: relative;
+            
+}
+
+/*BOOKS
+
+
+=================================================*/
+
+#bestsellers {
+    text-align: center;
+   
+
+}
+
+.bestsellers {
+    color: #FAFF00;
+    position: relative;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #6320E8;
+    
+}
+
+.bestsellers:hover{
+    color: turquoise;
+}
+
+.book{
+    
+    width: 16%;
+    text-align: center;
+    display: inline-grid;
+    position: relative;
+    height: 500px;
+    margin: 5%;
+    
+
+}
+
+
+.book img {
+    width: 96%;
+    height: 300px;
+    float: left;
+    margin: auto;
+    position: relative;
+    
+}
+
+.bookdesc {
+    width: 96%;
+    height: 240px;
+    margin: auto;
+    background-color: turquoise;
+
+}
+
+h2{
+    font-size: 20px;
+    position: relative;
+    width: 220px;
+    height: 80px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 5px;
+    color: #6320E8;
+    
+}
+
+.price{
+    
+    
+    color: #FAFF00;
+    height: 10px;
+    text-align: center;
+
+}
+
+.author{
+    height: 20px;
+    text-align: center;
+    color: #6320E8;
+}
+
+button{
+    color: #FAFF00;
+    background-color:  #6320E8;
+    margin: 20px 10px;
+
+    
+}
+
+
+
+#romance {
+    text-align: center;
+   
+
+}
+
+.romance {
+    color: #FAFF00;
+    position: relative;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #6320E8;
+    
+}
+
+.romance:hover{
+    color: turquoise;
+}
+
+
+#fantasy {
+    text-align: center;
+   
+
+}
+
+.fantasy {
+    color: #FAFF00;
+    position: relative;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #6320E8;
+    
+}
+
+.fantasy:hover{
+    color: turquoise;
+}
+
+#thriller {
+    text-align: center;
+   
+
+}
+
+.thriller{
+    color: #FAFF00;
+    position: relative;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #6320E8;
+    
+}
+
+.thriller:hover{
+    color: turquoise;
+}
+
+#contemporary {
+    text-align: center;
+   
+
+}
+
+.contemporary{
+    color: #FAFF00;
+    position: relative;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #6320E8;
+    
+}
+
+.contemporary:hover{
+    color: turquoise;
+}
+
+#booksets {
+    text-align: center;
+   
+
+}
+
+.booksets{
+    color: #FAFF00;
+    position: relative;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #6320E8;
+    
+}
+
+.booksets:hover{
+    color: turquoise;
+}
+/*CART
+
+==============================================*/
+.cartcenter{
+    text-align: center;
+}
+#cart{
+    color: #6320E8;
+    background-color: #FAFF00;
+    width: 80%;
+    height: auto;
+    border-radius: 70px;
+    text-align: center;
+    margin: auto;
+    font-size-adjust: auto;
+    font-size: 22px;
+    padding: 10px;
+    margin-top: 5px;
+    position: relative;
+}
+#productPrice{
+    list-style-type: none;
+    color: #6320E8;
+    background-color: turquoise;
+    width: 80%;
+    height: auto;
+    border-radius:15px;
+    text-align: center;
+    margin: auto;
+    font-size-adjust: auto;
+    font-size: 22px;
+    padding: 10px;
+    margin-top: 5px;
+    position: relative;
+}
+.listbg{
+    background-color: transparent;
+    text-align: left;
+    padding: 10px;
+}
+#total{
+    color: yellow;
+    background-color: #6320E8;
+    width: 80%;
+    height: auto;
+    border-radius: 70px;
+    text-align: center;
+    margin: auto;
+    font-size-adjust: auto;
+    font-size: 22px;
+    padding: 10px;
+    margin-top: 5px;
+    position: relative;
+}
+.close{
+    margin: auto;
+    margin-right: 2%;
+}
+/*FORM
+
+==============================================*/
+.checkout{
+    color: yellow;
+    background-color: #A134F6;
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    font-size-adjust: auto;
+    font-size: 22px;
+    padding: 10px;
+    margin-top: 5px;
+    
+}
+input{
+    border-radius: 15px;
+}
+/*ADDTOCART
+
+==============================================*/
+#submit{
+    background-color: #6320E8;
+    color: yellow;
+    border-radius: 70px;
+    border-color: transparent;
+    padding: 10px;
+}
+.curve{
+    border-radius: 15px;
+    border-color: transparent;
+}
+    
+}
+
+
+
+/*PHONE
+
+
+==========================================*/
+
+
+
+@media (max-width: 385px){
+    
+    
+body{
+    
+    background-image: url(bg.jpeg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    
+}
+    
+#bg{
+        
+        width: 0;
+        height: 0;
+    }
+    
+/*header
+
+====================*/
+    
+header{
+    text-align: center;
+    width: auto;
+    position: relative;
+    margin: 0 auto 0;
+    padding-top: 0px;
+    
+}
+
+nav {
+    list-style: none;
+    background-color: turquoise;
+    width: auto;
+    position: relative;
+    margin: 0 auto 0;
+    padding-top: 0px;
+    margin-top: -2em;
+}
+    
+    nav li {
+    display: inline-block;
+    text-align: center;
+
+}
+
+nav ul {
+    text-align: center;
+    margin-right: 20px;
+}
+    
+nav li a{
+    text-decoration: none;
+    color: #A134F6;
+    margin-bottom: 3px;
+    margin-top: 2px;
+    padding: 8px;
+    position: relative;
+    text-align:center;
+    width: 100%;
+    font-size: 20px;
+
+    }
+    
+nav li a:hover{
+    color: #FAFF00;
+    text-decoration: none;
+     position: relative;
+}
+
+    
+nav ul img{
+    width: 50%;
+    height: auto;
+    padding-top: 20px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    position: relative;
+    
+}
+    
+#container{
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+        
+#welcome img {
+    text-align: center;
+    width: 70%;
+    position: relative;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}
+        
+h3{
+    color: #6320E8;
+    background-color: #FAFF00;
+    width: 80%;
+    height: auto;
+    border-radius: 70px;
+    text-align: center;
+    margin: auto;
+    font-size-adjust: auto;
+    font-size: 15px;
+    padding: 10px;
+    margin-top: 5px;
+    position: relative;
+            
+}
+
+    
+    #bestsellers {
+    text-align: center;
+   
+
+}
+
+.bestsellers {
+    color: #FAFF00;
+    position: relative;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #6320E8;
+    
+}
+
+.bestsellers:hover{
+    color: turquoise;
+}
+
+.book{
+    
+    width: 200px;
+    text-align: center;
+    display: inline-grid;
+    position: relative;
+    height: 500px;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 50px;
+    margin-right: 10%;
+    
+    
+
+}
+
+
+.book img {
+    width: 96%;
+    height: 300px;
+    float: left;
+    margin: auto;
+    position: relative;
+    
+}
+
+.bookdesc {
+    width: 96%;
+    height: 240px;
+    margin: auto;
+    background-color: turquoise;
+
+}
+
+h2{
+    font-size: 20px;
+    position: relative;
+    width: 220px;
+    height: 80px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 5px;
+    color: #6320E8;
+    
+}
+
+.price{
+    
+    
+    color: #FAFF00;
+    height: 10px;
+    text-align: center;
+
+}
+
+.author{
+    height: 20px;
+    text-align: center;
+    color: #6320E8;
+}
+
+button{
+    color: #FAFF00;
+    background-color:  #6320E8;
+    margin: 20px 10px;
+
+    
+}
+
+
+
+#romance {
+    text-align: center;
+   
+
+}
+
+.romance {
+    color: #FAFF00;
+    position: relative;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #6320E8;
+    
+}
+
+.romance:hover{
+    color: turquoise;
+}
+
+
+#fantasy {
+    text-align: center;
+   
+
+}
+
+.fantasy {
+    color: #FAFF00;
+    position: relative;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #6320E8;
+    
+}
+
+.fantasy:hover{
+    color: turquoise;
+}
+
+#thriller {
+    text-align: center;
+   
+
+}
+
+.thriller{
+    color: #FAFF00;
+    position: relative;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #6320E8;
+    
+}
+
+.thriller:hover{
+    color: turquoise;
+}
+
+#contemporary {
+    text-align: center;
+   
+
+}
+
+.contemporary{
+    color: #FAFF00;
+    position: relative;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #6320E8;
+    
+}
+
+.contemporary:hover{
+    color: turquoise;
+}
+
+#booksets {
+    text-align: center;
+   
+
+}
+
+.booksets{
+    color: #FAFF00;
+    position: relative;
+    font-size: 30px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #6320E8;
+    
+}
+
+.booksets:hover{
+    color: turquoise;
+}
+    
+    
+    
+/*CART
+
+==============================================*/
+.cartcenter{
+    text-align: center;
+}
+#cart{
+    color: #6320E8;
+    background-color: #FAFF00;
+    width: 80%;
+    height: auto;
+    border-radius: 70px;
+    text-align: center;
+    margin: auto;
+    font-size-adjust: auto;
+    font-size: 22px;
+    padding: 10px;
+    margin-top: 5px;
+    position: relative;
+}
+#productPrice{
+    list-style-type: none;
+    color: #6320E8;
+    background-color: turquoise;
+    width: 80%;
+    height: auto;
+    border-radius:15px;
+    text-align: center;
+    margin: auto;
+    font-size-adjust: auto;
+    font-size: 22px;
+    padding: 10px;
+    margin-top: 5px;
+    position: relative;
+}
+.listbg{
+    background-color: transparent;
+    text-align: left;
+    padding: 10px;
+}
+#total{
+    color: yellow;
+    background-color: #6320E8;
+    width: 80%;
+    height: auto;
+    border-radius: 70px;
+    text-align: center;
+    margin: auto;
+    font-size-adjust: auto;
+    font-size: 22px;
+    padding: 10px;
+    margin-top: 5px;
+    position: relative;
+}
+.close{
+    margin: auto;
+    margin-right: 2%;
+}
+/*FORM
+
+==============================================*/
+    
+.strong{
+        
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    
+        
+    }
+.checkout{
+    color: yellow;
+    background-color: #A134F6;
+    position: relative;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    font-size-adjust: auto;
+    font-size: 22px;
+    padding: 10px;
+    margin-top: 5px;
+    
+}
+input{
+    border-radius: 15px;
+}
+/*ADDTOCART
+
+==============================================*/
+#submit{
+    background-color: #6320E8;
+    color: yellow;
+    border-radius: 70px;
+    border-color: transparent;
+    padding: 10px;
+}
+.curve{
+    border-radius: 15px;
+    border-color: transparent;
+}
+    
+}
+
+
+
+
+
+
+

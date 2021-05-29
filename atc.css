@@ -1,0 +1,52 @@
+@media  (min-width: 1194px);
+@media (max-width: 1193px);
+width: 100%;
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.zed {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+    background: #A134F5;
+    text-align: center;
+    text-decoration-color: white;
+}  
+.ai {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+    background: #A134F5;
+    text-align: center;
+    text-decoration-color: white;
+}  
+.joshua {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+    background: #A134F5;
+    text-align: center;
+    text-decoration-color: white;
+}  
+.christine {
+    float: left;
+    width: 20%;
+    padding: 0 10px;
+    background: #A134F5;
+    text-align: center;
+    text-decoration-color: white;
+}  
+.name {
+    
+      text-align: justify;
+      float: center;
+      margin-left: 50px;
+      margin-right: 50px;
+    
+}
+p{
+      text-align: justify;
+      float: center;
+      margin-left: 50px;
+      margin-right: 50px;
+}
